@@ -64,7 +64,7 @@ p {
   * Lado esquedo do site
   */
   .menu{
-      background-image: url(../img/bgMenu.png);
+      background-image: url(../img/bgMenu.jpg);
       height: 960px;
   }
 
@@ -156,5 +156,29 @@ p {
     text-align: justify;
      font-size: 16px;
     height: 180px;
+  }
+  /*
+  Página de passaporte
+  */
+
+  .pass_hallow{
+    background-image: url("../img/bgha.png");
+    height: 240px;
+    margin-left: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+  }
+
+  .pa_ha_p{
+    color: #4fc59c;
+    margin-top: 11.5px;
+    margin-left: 182px;
+    font-size: 22px;
+    }
+
+
+
+
   }
 }

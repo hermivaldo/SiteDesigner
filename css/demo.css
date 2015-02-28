@@ -106,7 +106,7 @@ p {
   }
 
   .cimag{
-    background-image: url("../img/car.png");
+
     background-size: contain;
     background-repeat: no-repeat;
     height: 300px;
@@ -124,19 +124,18 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 10px;
     height: 180px; 
   }
   .text{
     height: 150px;
     font-size: 16px;
-    margin-top: 20px;
+    margin-right: -10px;
     text-align: justify;
   }
 
   .textRig{
     font-size: 16px;
-    margin-top: 20px;
     margin-left: 20px;
     text-align: justify;
     height: 150px; 
@@ -144,6 +143,7 @@ p {
 
   .imaSel{
     margin-top: 30px;
+    margin-right: -10px;
     background-image: url("../img/selfie.png");
     height: 180px;
     background-size: contain;

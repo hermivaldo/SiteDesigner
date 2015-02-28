@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="css/960.css" />
 <link rel="stylesheet" href="css/demo.css" />
 <link rel="stylesheet" href="css/hover.css" />
+<link rel="stylesheet" href="css/carousel.css"/>
+<link rel="stylesheet" href="css/bootstrap.css"
 </head>
 
 <body>
@@ -50,8 +52,56 @@
 
 	<div class="grid_7 content">
 		<div class="grid_7 cimag">
-			
-		</div> <!--carrossel de imagens-->
+			 <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/car.jpg" alt="Arraia">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Atrações</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/mon.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>A montanha russa mais rápido do mundo.</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/fapa.jpg">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Venha em conjunto com sua família.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <a class="left carousel-control" href="#myCarousel"
+               role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"
+                      aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+
+            <a class="right carousel-control" href="#myCarousel"
+               role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"
+                      aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+		</div> 
+
+		<!--carrossel de imagens-->
 		<div class="clear"></div> <!--Pular linha -->
 		<div class="grid_3 atrac">
 		</div>
@@ -77,6 +127,10 @@
 	</div> <!--Lado direito do site conteúdo -->	
 
     </div> <!-- Fim do site -->
+	
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/carousel.js"></script>
 
 </body>
 </html>

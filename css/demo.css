@@ -1,5 +1,5 @@
 body {
-  
+  background-image: url("../img/bgsite.png");
   color: #333;
   font-size: 11px;
   height: auto;
@@ -107,19 +107,22 @@ p {
 
   .cimag{
     background-image: url("../img/car.png");
-    position: relative;
-    
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 300px;
   }
 
   .atrac{
-    background-color: yellow;
+    background-image: url("../img/circo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-top: 40px;
-
     height: 180px;    
   }
   .dep{
-    background-color: yellow;
+    background-image: url("../img/depoimento.png");
+    background-size: contain;
+    background-repeat: no-repeat;
     margin-top: 40px;
     margin-left: 20px;
     height: 180px; 
@@ -141,8 +144,10 @@ p {
 
   .imaSel{
     margin-top: 30px;
-    background-color: yellow;
+    background-image: url("../img/selfie.png");
     height: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .textSelf{
